@@ -71,8 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 1
-set_param synth.incrementalSynthesisCache C:/Users/admin/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10572-DESKTOP-TH2FPTO/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/admin/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-844-DESKTOP-TH2FPTO/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -92,8 +91,8 @@ OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/4bit_and.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/4bit_or.v}
-  {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/8to1mux.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/comp_4bit.v}
+  {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/eightto1mux.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/fa.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/fbit_nand.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/fbit_xor.v}
@@ -102,6 +101,7 @@ read_verilog -library xil_defaultlib {
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/hs_s.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/multiplier.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/mux_s.v}
+  {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/par_reg.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/rbs_s.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/rp_a.v}
   {C:/imp folders/vlog prrojects/alu/alu.srcs/sources_1/new/alu_s.v}

@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Sep 30 14:15:39 2024
-# Process ID: 11880
+# Start of session at: Sat Mar  8 13:15:04 2025
+# Process ID: 18528
 # Current directory: C:/imp folders/vlog prrojects/alu/alu.runs/impl_1
 # Command line: vivado.exe -log alu_s.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source alu_s.tcl -notrace
 # Log file: C:/imp folders/vlog prrojects/alu/alu.runs/impl_1/alu_s.vdi
 # Journal file: C:/imp folders/vlog prrojects/alu/alu.runs/impl_1\vivado.jou
-# Running On: DESKTOP-TH2FPTO, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 8529 MB
+# Running On: DESKTOP-TH2FPTO, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 17119 MB
 #-----------------------------------------------------------
 source alu_s.tcl -notrace

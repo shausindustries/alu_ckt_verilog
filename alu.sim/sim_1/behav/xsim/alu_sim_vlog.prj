@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../alu.srcs/sources_1/new/4bit_and.v" \
+"../../../../alu.srcs/sources_1/new/4bit_or.v" \
+"../../../../alu.srcs/sources_1/new/alu_s.v" \
+"../../../../alu.srcs/sources_1/new/comp_4bit.v" \
+"../../../../alu.srcs/sources_1/new/eightto1mux.v" \
+"../../../../alu.srcs/sources_1/new/fa.v" \
+"../../../../alu.srcs/sources_1/new/fbit_nand.v" \
+"../../../../alu.srcs/sources_1/new/fbit_xor.v" \
+"../../../../alu.srcs/sources_1/new/fs_s.v" \
+"../../../../alu.srcs/sources_1/new/ha.v" \
+"../../../../alu.srcs/sources_1/new/hs_s.v" \
+"../../../../alu.srcs/sources_1/new/multiplier.v" \
+"../../../../alu.srcs/sources_1/new/mux_s.v" \
+"../../../../alu.srcs/sources_1/new/par_reg.v" \
+"../../../../alu.srcs/sources_1/new/rbs_s.v" \
+"../../../../alu.srcs/sources_1/new/rp_a.v" \
+"../../../../alu.srcs/sim_1/new/alu_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

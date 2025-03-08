@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/imp folders/vlog prrojects/alu/alu.sim/sim_1/synth/func/xsim/alu_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_s
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_tb
+ERROR: [VRFC 10-4982] syntax error near 'reg' [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:4]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'reg' used in incorrect context [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:4]
+ERROR: [VRFC 10-9208] no definition could be found for port 'a_tb' [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:3]
+ERROR: [VRFC 10-2989] 'opcode_tb' is not declared [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:3]
+ERROR: [VRFC 10-2989] 'opcode_tb' is not declared [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:9]
+ERROR: [VRFC 10-2989] 'opcode_tb' is not declared [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:11]
+ERROR: [VRFC 10-8530] module 'alu_tb' is ignored due to previous errors [C:/imp folders/vlog prrojects/alu/alu.srcs/sim_1/new/alu_tb.v:3]

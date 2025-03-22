@@ -17,7 +17,7 @@ The table followed by my 4-bit alu is:
  
 A few errors have also been resolved, like the multiplexer structures etc.
 You can find the simulation and the testbench file in alu.sim folder.
-A snippet of the schematic and the waveforms have also been provided.
+A snippet of the schematic and the waveforms has also been provided.
 
 To install and rebuild the synthesis:
 - Clone the repository
